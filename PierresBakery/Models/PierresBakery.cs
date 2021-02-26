@@ -4,19 +4,19 @@ namespace PierresBakery.Models
 {
   public class Bread
   {
-    public int Price { get; set; }
+    public static int Price { get; set; }
     public int AmountOfBread { get; set; }
-    public List<int> breadCount = new List<int> {};
+    public List<int> breadCount = new List<int> { };
     public Bread(int amountOfBread)
     {
-      
+
       AmountOfBread = amountOfBread;
 
     }
 
     public int BreadDeal()
-    { 
-      for (int i = 1; i <= AmountOfBread; i ++)
+    {
+      for (int i = 1; i <= AmountOfBread; i++)
       {
         breadCount.Add(i);
       }
@@ -34,19 +34,19 @@ namespace PierresBakery.Models
 
   public class Pastry
   {
-    public int Price { get; set; }
+    public static int Price { get; set; }
     public int AmountOfPastries { get; set; }
-    public List<int> pastryCount = new List<int> {};
+    public List<int> pastryCount = new List<int> { };
     public Pastry(int amountOfPastries)
     {
-      
+
       AmountOfPastries = amountOfPastries;
 
     }
 
     public int PastryDeal()
-    { 
-      for (int i = 1; i <= AmountOfPastries; i ++)
+    {
+      for (int i = 1; i <= AmountOfPastries; i++)
       {
         pastryCount.Add(i);
       }
@@ -55,7 +55,7 @@ namespace PierresBakery.Models
       {
         if (count % 3 == 0)
         {
-          Price --;
+          Price--;
         }
       }
       return Price;
