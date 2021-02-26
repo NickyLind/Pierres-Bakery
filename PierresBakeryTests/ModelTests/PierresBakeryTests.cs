@@ -49,13 +49,13 @@ namespace PierresBakery.Tests
       Assert.AreEqual(5, result);
     }
 
-    // [TestMethod]
-    // public void Pastry_CorrectPricing_True()
-    // {
-    //   Pastry newPastry = new Pastry(5);
-    //   int result = newPastry.PastryDeal();
+    [TestMethod]
+    public void Pastry_CorrectPricing_True()
+    {
+      Pastry newPastry = new Pastry(5);
+      int result = newPastry.PastryDeal();
 
-    //   Assert.AreEqual(20, result);
-    // }
+      Assert.AreEqual(9, result);
+    }
   }
 }
