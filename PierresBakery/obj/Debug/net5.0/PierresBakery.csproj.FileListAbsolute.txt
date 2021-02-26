@@ -10,3 +10,6 @@
 /Users/Nick/Desktop/CSE-week-8/PierresBakery.Solution/PierresBakery/obj/Debug/net5.0/PierresBakery.dll
 /Users/Nick/Desktop/CSE-week-8/PierresBakery.Solution/PierresBakery/obj/Debug/net5.0/ref/PierresBakery.dll
 /Users/Nick/Desktop/CSE-week-8/PierresBakery.Solution/PierresBakery/obj/Debug/net5.0/PierresBakery.pdb
+/Users/Nick/Desktop/CSE-week-8/PierresBakery.Solution/PierresBakery/bin/Debug/net5.0/PierresBakery.runtimeconfig.json
+/Users/Nick/Desktop/CSE-week-8/PierresBakery.Solution/PierresBakery/bin/Debug/net5.0/PierresBakery.runtimeconfig.dev.json
+/Users/Nick/Desktop/CSE-week-8/PierresBakery.Solution/PierresBakery/obj/Debug/net5.0/PierresBakery.genruntimeconfig.cache
