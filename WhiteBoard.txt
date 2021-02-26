@@ -26,5 +26,11 @@ The user will specifiy the amount of pastries they want (5). Since every third p
 by a dollar, I will use a loop and every time the count is a multiple of three i will subtract 1$
 from the price.
 
-
 I will test each of these classes seperately starting with their most basic functionality.
+
+
+CONSOLE
+A user will first enter a bread amount which will be saved as a new bread object with the amount.
+They will then enter a new pastry object which will be saved with their requested amount.
+Each of these objects will then have their respective methods to calculate cost used on them,
+followed by the method to add these two costs together.
