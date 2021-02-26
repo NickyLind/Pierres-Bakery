@@ -14,12 +14,20 @@ namespace PierresBakery.Tests
     }
 
     [TestMethod]
-
     public void Bread_CanReadAmount_True()
     {
       Bread newBread = new Bread(5);
       int result = newBread.AmountOfBread;
       Assert.AreEqual(5, result);
+    }
+
+    [TestMethod]
+    public void Bread_CorrectPricing_True()
+    {
+      Bread newBread = new Bread(5);
+      int result = newBread.BreadDeal();
+
+      Assert.AreEqual(20, result);
     }
   }
 }
