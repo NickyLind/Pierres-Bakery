@@ -58,4 +58,18 @@ namespace PierresBakery.Tests
       Assert.AreEqual(9, result);
     }
   }
+  [TestClass]
+  public class TotalGoods
+  {
+    [TestMethod]
+    public void TotalPrice_CorrectPrice_True()
+    {
+      Pastry newPastry = new Pastry(5);
+      Bread newBread = new Bread(5);
+      
+      int result = newPastry.PastryDeal() + newBread.BreadDeal();
+
+      Assert.AreEqual(result, 29);
+    }
+  }
 }
