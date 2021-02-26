@@ -16,13 +16,15 @@ Pastry: Buy 1 for \$2 or 3 for $5.
 All functionality for the models should be tested.
 
 I will create each class complete with its auto-implemented properties
-The user will specifiy the amount of bread they want (3). Since every other bread is free, if the amount
-  ordered is even i will simply cut the price in half. If the amount ordered is odd I will subtract
-  one from the counter, divide in half, then add 5$
-  
-  
-BREAD will have a counter and method and each time it is % 2 == 0 the price will not increase since any even number will mean 
-  they are using the buy 2 get one free deal.
-PASTRY will have a counter & method where each time it is % 3 == 0 the price will only increase by one since any multiple of 3 will mean
-  they are using the buy three for 5$ deal
+BREAD
+The user will specifiy the amount of bread they want (5). Since every third bread is free, i will use a foreach
+loop that finds every number leading up to that number that is a multiple of 3 and remove it from 
+an array of all numbers leading up to it. I will then multiply the length of the array by 5.
+
+PASTRY 
+The user will specifiy the amount of pastries they want (5). Since every third pastry is discounted 
+by a dollar, I will use a loop and every time the count is a multiple of three i will subtract 1$
+from the price.
+
+
 I will test each of these classes seperately starting with their most basic functionality.

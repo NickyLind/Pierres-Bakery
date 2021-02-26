@@ -30,4 +30,32 @@ namespace PierresBakery.Tests
       Assert.AreEqual(20, result);
     }
   }
+
+  [TestClass]
+  public class PastryTests
+  {
+    [TestMethod]
+    public void Pastry_IsInstanceOfPastry_True()
+    {
+      Pastry newPastry = new Pastry(5);
+      Assert.AreEqual(typeof(Pastry), newPastry.GetType());
+    }
+
+    // [TestMethod]
+    // public void Pastry_CanReadAmount_True()
+    // {
+    //   Pastry newPastry = new Pastry(5);
+    //   int result = newPastry.AmountOfPastry;
+    //   Assert.AreEqual(5, result);
+    // }
+
+    // [TestMethod]
+    // public void Pastry_CorrectPricing_True()
+    // {
+    //   Pastry newPastry = new Pastry(5);
+    //   int result = newPastry.PastryDeal();
+
+    //   Assert.AreEqual(20, result);
+    // }
+  }
 }
